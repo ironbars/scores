@@ -2,12 +2,6 @@
   title = "Gnossienne No. 1"
   composer = "Erik Satie"
 }
-ending = {
-  \acciaccatura g,8 a2 \acciaccatura g8 fis2
-  \acciaccatura g8 a2 \acciaccatura g8 fis2
-  \acciaccatura g8 fis4 \acciaccatura fis8 e4~ 2
-  <e,\harmonic g'\harmonic b\harmonic e\harmonic>1\arpeggio
-}
 \version "2.24.1"
 \score {
   \new Staff <<
@@ -21,7 +15,7 @@ ending = {
           r4 b''8 d cis4 b
           \acciaccatura b8 ais2 \acciaccatura b8 ais2
           r4 b8 d cis4 b
-          \acciaccatura d8 e2 \acciaccatura d8 e2
+          \acciaccatura dis8 e2 \acciaccatura dis8 e2
           r4 b8 d cis4 b
           \acciaccatura b8 ais2 \acciaccatura g8 fis2
           \acciaccatura e8 fis4 \acciaccatura e8 fis4~ 2
@@ -57,7 +51,7 @@ ending = {
                 r4 b'8 d cis4 b
                 \acciaccatura b8 ais1 
                 r4 b8 d cis4 b
-                \acciaccatura d8 e1 
+                \acciaccatura dis8 e1 
               } \break
             }
             \volta 2 \volta #'() {
@@ -65,7 +59,11 @@ ending = {
               \sectionLabel "Coda"
             } 
           }
-        } \ending
+        }
+        \acciaccatura g,8 a2 \acciaccatura g8 fis2
+        \acciaccatura g8 a2 \acciaccatura g8 fis2
+        \acciaccatura g8 fis4 \acciaccatura fis8 e4~ 2
+        <e,\harmonic g'\harmonic b\harmonic e\harmonic>1\arpeggio
       }
     }
     \new Voice = "accompaniment" {
