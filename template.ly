@@ -9,7 +9,7 @@
     % adjust this as necessary
     \time 4/4 
     \key c \major
-    \clef treble
+    \clef "treble_8"
 
   }
 }
