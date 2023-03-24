@@ -1,6 +1,6 @@
 \relative {
   %\repeat segno 2 {
-    e'8\p fis g b g fis
+    e8\p fis g b g fis
     e fis g b g fis
     %\repeat volta 2 {
       e fis g b g fis

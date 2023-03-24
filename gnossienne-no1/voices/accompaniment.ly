@@ -1,7 +1,7 @@
 \relative {
   % keeping the repeat notation here for clarity
   %\repeat volta 2 {
-    e4 <g' b>2 <g b>4
+    e,4 <g' b>2 <g b>4
     e, <g' b>2 <g b>4
     e, <g' b>2 <g b>4
     e, <g' b>2 <g b>4

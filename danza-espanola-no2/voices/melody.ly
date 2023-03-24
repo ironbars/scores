@@ -2,12 +2,12 @@
   \tempo 4 = 75
   \time 3/4
   \key e \minor
-  \clef treble
+  \clef "treble_8"
   \repeat segno 2 {
     r2.
     r2.
     \repeat volta 2 {
-      <g'' b>4^\textstyle "dolce" <e g> <g b>~
+      <g' b>4^\textstyle "dolce" <e g> <g b>~
       4 <fis a> <e g>
       <fis a> <fis a>8 <e g> <fis d>4 \break
       r4 \repeat unfold 4 { d16_( e) }

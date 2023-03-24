@@ -8,8 +8,8 @@
     \tempo 4 = 70
     \time 4/4
     \key f \major
-    \clef treble
-    <f' a c e>8 <a c f> <g c e> <a c f> <bes, g' c e>4\arpeggio d'
+    \clef "treble_8"
+    <f a c e>8 <a c f> <g c e> <a c f> <bes, g' c e>4\arpeggio d'
     <a, e' c'>4\arpeggio \tuplet 3/2  {g'8 c e} <d, ges c ees>4\arpeggio 
       \tuplet 3/2 {c'8 f g}
     <g,, bes' d a'>8\arpeggio bes'' a bes <a,, des' f a>4\arpeggio g'' \break

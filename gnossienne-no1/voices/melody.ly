@@ -1,9 +1,9 @@
 \relative {
   \time 4/4
   \key e \minor
-  \clef treble
+  \clef "treble_8"
   \repeat volta 2 {
-    r4 b''8 d cis4 b
+    r4 b'8 d cis4 b
     \acciaccatura b8 ais2 \acciaccatura b8 ais2
     r4 b8 d cis4 b
     \acciaccatura dis8 e2 \acciaccatura dis8 e2
