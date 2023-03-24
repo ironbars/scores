@@ -8,9 +8,9 @@
     \tempo 4 = 70
     \time 2/4
     \key a \minor
-    \clef treble
+    \clef "treble_8"
     \repeat volta 2 {
-      r4 r16 e'' a c 
+      r4 r16 e' a c 
       <a,,( c' e b'> a'' e c <a,) b'> a' e c 
       b a' d f e, gis d' f
       \alternative {
