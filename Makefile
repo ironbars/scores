@@ -1,5 +1,4 @@
-clean:
-	rm *.pdf
+all: going-home choro-de-crianca gnossienne1 danza-espanola2
 
 going-home:
 	lilypond -o "Going Home" going-home.ly
@@ -13,4 +12,6 @@ gnossienne1:
 danza-espanola2:
 	lilypond -o "Danza Española No. 2" danza-espanola-no2/main.ly
 
-all: going-home choro-de-crianca gnossienne1 danza-espanola2
+clean:
+	rm *.pdf
+
