@@ -85,7 +85,7 @@
           fis4 \acciaccatura e8 fis8~ 4.
           g4 g8~ 32 g ais g ais8 fis
           a4 gis8 e32 e^\textstyle "rit. un poco" g fis g8 fis
-          dis4 b8~ 4 c32 d e fis
+          dis4 b8~ 4 c32 dis e fis
           e2.^\textstyle "a tempo"
           g4 g8~ 8[ \grace { fis32_( g a) } g8 fis] % meas. 57
           d4 \grace { b32 c } d8~ 4.\break
