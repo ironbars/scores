@@ -3,7 +3,7 @@
   subtitle = "Oriental"
   composer = "Enrique Granados"
 }
-%%% UNFINISHED %%%
+
 \include "utils/textstyle.ly"
 
 \version "2.24.1"
@@ -81,6 +81,18 @@
           b4 b8~ 8 <b e> <b e>
           b'4.~ 4 cis,32 dis e fis
           e2. % meas. 50
+          b'4 b8~ [8 \grace { ais32_( b cis) } b8 ais]
+          fis4 \acciaccatura e8 fis8~ 4.
+          g4 g8~ 32 g ais g ais8 fis
+          a4 gis8 e32 e^\textstyle "rit. un poco" g fis g8 fis
+          dis4 b8~ 4 c32 d e fis
+          e2.^\textstyle "a tempo"
+          g4 g8~ 8[ \grace { fis32_( g a) } g8 fis] % meas. 57
+          d4 \grace { b32 c } d8~ 4.\break
+          c8 e \acciaccatura d e~ 8[ \grace { dis32_( e fis) } e8 dis]
+          b4 b8~ 8 <b e> <b e> \break
+          b'4.~ 4 cis,32 dis e fis
+          e2.
         }
       }
     }
@@ -145,8 +157,20 @@
           e, fis' b fis d' fis, b a fis b fis g
           e, a' c a e' a, c g e' a, dis fis,
           e, b' g' b, g' b, g' fis g g g e
-          b b' <e a> b <dis a'> b <cis a'> b <dis a'> b\harmonic a b,
+          b\f b' <e a> b <dis a'> b_\textstyle "dim." <cis a'> b <dis a'> b\harmonic a\p b,
           e, b' <g' b> b, <g' b> b, <g' b> b, <g' b> b, <g' b> b, % meas. 50
+          e, b'' <e g> b <e g> b <e g> b\harmonic b' d, ais' cis,
+          e,, ais' cis ais fis' ais, cis ais cis gis cis ais
+          e, b'' e b e b d ais' ais cis, fis ais,
+          e, c'' e c e b e b ais b e b~
+          16 b, <fis' a> b, <e a> b dis b fis' b, a' b,
+          e, b' <g' b> b, <g' b> b, <g' b>_\textstyle "dim." b, <g' b> b, <g' b> b,
+          e, b'' e b e b e b g' c, fis a, % meas. 57
+          e, fis' b fis d' fis, b a fis b fis g
+          e, a' c a e' a, c g e' a, dis fis,
+          e, b' g' b, g' b, g' fis g g g e
+          b\f b' <e a> b <dis a> b <cis a'>_\textstyle "rit e dim." b <dis a'> b\harmonic a\p b,
+          e, b' <g' b> b, <g' b> b, <g' b> b, <g' b> b, <g' b> b,
         %}
       }
     }
