@@ -1,5 +1,6 @@
 clean:
 	rm *.pdf */*.pdf
+
 going-home:
 	lilypond -o "Going Home" going-home.ly
 
