@@ -2,6 +2,44 @@ halfBarSign = \markup { \combine \roman C \translate #'(0.8 . -0.4) \draw-line #
 
 fullBarSign = \markup { \roman C }
 
+shortSpan = 
+\markup {
+  \override #'(thickness . 0.8)
+  \combine
+    \draw-line #'(1 . 0)
+    \translate #'(1 . 0) \draw-line #'(0 . -0.75)
+}
+
+singleCountHalfBarre =
+#(define-scheme-function
+   (str)
+   (string?)
+   #{
+      \markup {
+        \raise #1.9 \center-align \concat { 
+          \halfBarSign #str
+          \raise #0.4 \shortSpan
+        }
+      }
+    #})
+
+singleCountFullBarre = 
+#(define-scheme-function
+   (str)
+   (string?)
+   #{
+      \markup {
+        \raise #1.9 \center-align \concat { 
+          \fullBarSign #str
+          \raise #0.4 \shortSpan
+        }
+      }
+    #})
+
+onehbarre = singleCountHalfBarre
+
+onefbarre = singleCountFullBarre
+
 hbarre = 
 #(define-music-function (barre location str music) (string? ly:music?)
    (let ((elts (extract-named-music music '(NoteEvent EventChord))))
