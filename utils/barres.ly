@@ -36,9 +36,24 @@ singleCountFullBarre =
       }
     #})
 
+singleCountFretPos =
+#(define-scheme-function
+   (str)
+   (string?)
+   #{
+      \markup {
+        \raise #1.9 \center-align \concat { 
+          #str
+          \raise #0.4 \shortSpan
+        }
+      }
+    #})
+
 onehbarre = singleCountHalfBarre
 
 onefbarre = singleCountFullBarre
+
+onefretpos = singleCountFretPos
 
 hbarre = 
 #(define-music-function (barre location str music) (string? ly:music?)
