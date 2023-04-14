@@ -1,17 +1,11 @@
-all: going-home choro-de-crianca gnossienne1 danza-espanola2
+plain-%: SUBDIR = plain
 
-going-home:
-	lilypond -o "Going Home" going-home.ly
+marked-%: SUBDIR = fingermarked
 
-choro-de-crianca:
-	lilypond -o "Choro de Criança" choro-de-criança.ly
+plain-%:
+	$(MAKE) -C $(SUBDIR) $*
 
-gnossienne1:
-	lilypond -o "Gnossienne No. 1" gnossienne-no1/main.ly
+marked-%:
+	$(MAKE) -C $(SUBDIR) $*
 
-danza-espanola2:
-	lilypond -o "Danza Española No. 2" danza-espanola-no2/main.ly
-
-clean:
-	rm *.pdf
-
+.PHONY: plain-% marked-%
