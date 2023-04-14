@@ -49,12 +49,6 @@ singleCountFretPos =
       }
     #})
 
-onehbarre = singleCountHalfBarre
-
-onefbarre = singleCountFullBarre
-
-onefretpos = singleCountFretPos
-
 hbarre = 
 #(define-music-function (barre location str music) (string? ly:music?)
    (let ((elts (extract-named-music music '(NoteEvent EventChord))))
