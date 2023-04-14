@@ -11,11 +11,11 @@
   \new Staff <<
     \new Voice = "melody" {
       \voiceOne
-      \include "danza-espanola2-voices/melody.ly"
+      \include "voices/danza-espanola2/melody.ly"
     }
     \new Voice = "accompaniment" {
       \voiceTwo
-      \include "danza-espanola2-voices/accompaniment.ly"
+      \include "voices/danza-espanola2/accompaniment.ly"
     }
   >>
 }
