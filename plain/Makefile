@@ -11,9 +11,15 @@ gnossienne1:
 
 danza-espanola2:
 	lilypond -o "Danza Española No. 2" danza-espanola2.ly
+
+%-midi: %.midi.ly
+	lilypond -o $* $^
+
+%.midi.ly: %.ly
 	sed '$$ s/^}/  \\midi { }\n}/' $^ > $@
 	
 clean:
-	rm *.pdf
+	-rm *.pdf
+	-rm *.midi
 
 .PHONY: clean
