@@ -25,7 +25,7 @@
     <g' b>4 <e g> <g b>~
     4 <fis a> <e g>
     <fis a> <fis a>8 <e g> <fis d>4 \break
-    r4 \repeat unfold 4 { d16_( e) }
+    r4 \repeat unfold 3 { d16_( e) } c d
     <c e>4 <e g> <d fis>
     e fis <fis, d'>
     <g b>2.~
@@ -46,7 +46,7 @@
     % measure 35
     << 
       { \voiceOne s4 d'2 } 
-      \new Voice { \voiceThree r4 \repeat unfold 4 { d,16_( e) } } 
+      \new Voice { \voiceThree r4 \repeat unfold 3 { d,16_( e) } c d } 
     >> 
     %\oneVoice
     % end measure 35
