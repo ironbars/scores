@@ -7,11 +7,11 @@
   \new Staff <<
     \new Voice = "melody" {
       \voiceOne
-      \include "voices/gnossienne1/melody.ly"
+      \include "voices/melody.ly"
     }
     \new Voice = "accompaniment" {
       \voiceTwo
-      \include "voices/gnossienne1/accompaniment.ly"
+      \include "voices/accompaniment.ly"
     }
   >>
 }

@@ -2,9 +2,9 @@
   title = "Going Home"
   composer = "Shiro Shigasu"
 }
-\include "../utils/rhfingers.ly"
-\include "../utils/barres.ly"
-\include "../utils/textstyle.ly"
+\include "../../../utils/rhfingers.ly"
+\include "../../../utils/barres.ly"
+\include "../../../utils/textstyle.ly"
 \version "2.24.1"
 \score {
   \relative {
