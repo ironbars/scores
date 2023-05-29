@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 SCRIPT="${BASH_SOURCE[0]##/*}"
 SCORE_BASE="src"
