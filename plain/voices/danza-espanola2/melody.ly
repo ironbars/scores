@@ -10,7 +10,7 @@
       <g' b>4^\textstyle "dolce" <e g> <g b>~
       4 <fis a> <e g>
       <fis a> <fis a>8 <e g> <fis d>4 \break
-      r4 \repeat unfold 4 { d16_( e) }
+      r4 \repeat unfold 3 { d16_( e) } c d
       <c e>4 <e g> <d fis>
       e fis <fis, d'>
       <g b>2.~
