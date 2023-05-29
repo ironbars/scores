@@ -4,18 +4,18 @@
   composer = "Enrique Granados"
 }
 
-\include "../utils/textstyle.ly"
+\include "../../utils/textstyle.ly"
 
 \version "2.24.1"
 \score {
   \new Staff <<
     \new Voice = "melody" {
       \voiceOne
-      \include "voices/danza-espanola2/melody.ly"
+      \include "voices/melody.ly"
     }
     \new Voice = "accompaniment" {
       \voiceTwo
-      \include "voices/danza-espanola2/accompaniment.ly"
+      \include "voices/accompaniment.ly"
     }
   >>
 }
