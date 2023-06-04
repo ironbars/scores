@@ -93,9 +93,8 @@ main() {
     score_home="${SCORE_BASE}/${score}"
   fi
 
-  out "$score_home"
   if [[ ! -d "${score_home}" ]]; then
-    die "No such score ${score}"
+    die "No such score: ${score}"
   fi
 
   if [[ -f "${score_home}/.title" ]]; then
