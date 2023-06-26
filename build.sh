@@ -32,15 +32,15 @@ assert_arg_nonempty() {
 
 
 get_valid_scores() {
-  for d in $(find "${SCORE_BASE}" -type d -depth 1 ! -name "with-fingering*"); do
+  while IFS= read -r d; do
     out "${d#*/}"
-  done
+  done < <(find "${SCORE_BASE}" -type d -depth 1 ! -name "with-fingering*")
 
   out
 
-  for d in $(find "${SCORE_BASE}/with-fingering" -type d -depth 1); do
+  while IFS= read -r d; do
     out "${d#*/}"
-  done
+  done < <(find "${SCORE_BASE}/with-fingering" -type d -depth 1)
 }
 
 
