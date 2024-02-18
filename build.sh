@@ -100,9 +100,7 @@ main() {
   if [[ -f "${score_home}/.title" ]]; then
     title="$(head -1 "${score_home}/.title")"
   else
-    title="$(
-      perl -pe 'tr/-/ /; s/([\w'"'"']+)/\u\L$1/g; s/(No)/$1\./' <<< "${score}"
-    )"
+    title="$(perl -pe 'tr/-/ /; s/([\w'"'"']+)/\u\L$1/g; s/(No)/$1\./' <<< "${score}")"
   fi
 
   score_src="${score_home}/main.ly"
