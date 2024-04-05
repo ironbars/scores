@@ -5,7 +5,7 @@
   \repeat volta 2 {
     a'4 a( a8) g16 a \grace { bes_( c } bes) a bes c
     a4 a( a8) g16 a \grace { bes_( c } bes) a bes c
-    \acciaccatura c8( a4) a r8 gis16 a b cis d e
+    \acciaccatura c8_( a4) a r8 gis16 a b cis d e
     f8 f16( e) d4 r16 cis e cis bes g e cis
     a'4 a r8 g16 f e f g e
     f4 fis r16 a, c fis a c ees16.\fermata d32
@@ -18,8 +18,15 @@
         r <f d'> r <f d'> r <g ees'> r <e a cis>
       }
       \volta 2 {
-        r <f d'> r <f d'> r <bes d> <g bes e>
+        r <f d'> r <f d'> r <bes d> r <g bes e>
       }
     }
   }
+  \section
+  % meas. 22
+  r <f' a> r <f a> r16 d e f \grace { e_(f } e) c d e
+  \grace { d16_( e } d8) <a c>4 <a c>8 r g'16 a \grace { bes_( c } bes8) a16 g
+  \acciaccatura a8( c4) f,4~ 8 d16 e \grace { f_( g } f8) e16 d
+  \grace { g16_( a } g4) c, r16 bes d e d c bes c,
+  r8 <f' a> r <f a> r16 d e f \grace { e_( f } e) c d e
 }

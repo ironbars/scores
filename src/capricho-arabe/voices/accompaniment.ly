@@ -22,4 +22,11 @@
       %}
     %}
   %}
+  %\section
+  % meas. 22
+  <f, c''> <c' c'> g' c,
+  f, c' g' c
+  a,2 d4 g,
+  c8 c' r <e, bes'> c2
+  <f, c''>4 <c' c'> g' c,
 }

@@ -9,17 +9,24 @@
     a8\rest <f' a> a,\rest <f' a> \skip2
     c8\rest <a d> c\rest <a d> \skip2
     f8\rest <a d> f\rest <a c> \skip2
-    \skip4
-    \skip4
+    \skip1
+    \skip1
     % meas. 19
-    \skip4
+    \skip1
     %\alternative {
       %\volta 1 {
-        \skip4
+        \skip1
       %}
       %\volta 2 {
-        \skip4
+        \skip1
       %}
     %}
   %}
+  %\section
+  % meas. 22
+  \skip1
+  \skip1
+  a8\rest <a c> a\rest <a c> \skip2
+  \skip1
+  \skip1
 }
