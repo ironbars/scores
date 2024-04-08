@@ -11,7 +11,6 @@ dropD = \markup \line { \circle {6} "= D" }
     \time 3/4
     \key d \minor
     \clef "treble_8"
-    %\set Staff.instrumentName = \markup { \circle {6} "= D" }
     \repeat volta 2 {
       <a\harmonic e'\harmonic a\harmonic>2.
       g''16( e) d( cis) e( d) bes( a) c( bes) g( e)

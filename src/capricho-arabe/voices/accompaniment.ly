@@ -29,4 +29,12 @@
   a,2 d4 g,
   c8 c' r <e, bes'> c2
   <f, c''>4 <c' c'> g' c,
+  f, c' g g'
+  % meas. 28
+  a,2 a
+  a a
+  \skip1
+  \skip1
+  %\section
+  %\key d \major
 }

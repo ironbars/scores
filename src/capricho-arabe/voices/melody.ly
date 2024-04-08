@@ -29,4 +29,12 @@
   \acciaccatura a8( c4) f,4~ 8 d16 e \grace { f_( g } f8) e16 d
   \grace { g16_( a } g4) c, r16 bes d e d c bes c,
   r8 <f' a> r <f a> r16 d e f \grace { e_( f } e) c d e
+  \grace { d_( e } d8) <a c>4 <a c>8 r16 bes c d e f g bes
+  % meas. 28
+  \grace { bes_( c bes } a4) a\harmonic r16 d( bes) g e d bes g
+  r e a cis e a cis e r bes( g) e d bes g e
+  a, e' a cis e_[ a a a ] a^[ a,, ais b c cis d dis ]
+  e f fis g gis a ais b c_ [ cis d dis \tuplet 5/4 { e f fis g gis } ]
+  \section
+  \key d \major
 }

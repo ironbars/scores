@@ -29,4 +29,12 @@
   a8\rest <a c> a\rest <a c> \skip2
   \skip1
   \skip1
+  \skip1
+  % meas. 28
+  c8\rest <cis e> c\rest <cis e> \skip2
+  \skip1
+  \skip1
+  \skip1
+  %\section
+  %\key d \major
 }
