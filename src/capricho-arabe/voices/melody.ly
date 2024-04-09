@@ -36,5 +36,10 @@
   a, e' a cis e_[ a a a ] a^[ a,, ais b c cis d dis ]
   e f fis g gis a ais b c_ [ cis d dis \tuplet 5/4 { e f fis g gis } ]
   \section
-  \key d \major
+  \key d \major  % key change starting meas. 32
+  a4 a~ a16 b cis d \grace { cis_( d } cis) a b cis
+  \grace {b_( cis } b8) a4. r8 e16 fis \grace { g_( a } g8) fis16 e
+  a4 d, r8 b16 cis \grace { d_( e } d8) cis16 b
+  e4 a, r8 gis'16\glissando a cis b g e
+  a4 a~ a16 b cis d \grace { cis_( d } cis) a b cis
 }

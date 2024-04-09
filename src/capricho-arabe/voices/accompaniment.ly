@@ -36,5 +36,10 @@
   \skip1
   \skip1
   %\section
-  %\key d \major
+  %\key d \major  % meas. 32
+  d,4 fis' e a
+  d,, fis' e a,
+  d, fis' e, e'
+  a, cis a2
+  d,4 fis' e a
 }
