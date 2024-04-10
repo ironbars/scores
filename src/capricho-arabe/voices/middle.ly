@@ -42,4 +42,15 @@
   a8\rest a a8\rest a \skip2
   f8\rest e e\rest e \skip2
   c'8\rest <a d> c\rest <a d> \skip2
+  c8\rest d c\rest <a d> \skip2
+  c8\rest e c\rest e e2\harmonic
+  % start meas. 39
+  \skip1
+  % end meas. 39
+  c8\rest <a d> c\rest <a d> \skip2
+  c8\rest d c\rest <a d> \skip2
+  a8\rest a a8\rest a \skip2
+  f8\rest e e\rest e \skip2
+  c'8\rest <a d> c\rest <a d> \skip2
+  c8\rest d c\rest <a d> \skip2
 }

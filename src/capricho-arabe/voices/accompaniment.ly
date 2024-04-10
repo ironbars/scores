@@ -42,4 +42,15 @@
   d, fis' e, e'
   a, cis a2
   d,4 fis' e a
+  d,, fis \skip2
+  e a \skip2
+  % start meas. 39
+  a1
+  % end meas. 39
+  d,4 fis' e a
+  d,, fis' e a,
+  d, fis' e, e'
+  a, cis a2
+  d,4 fis' e a
+  d,, fis \skip2
 }

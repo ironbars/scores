@@ -42,4 +42,16 @@
   a4 d, r8 b16 cis \grace { d_( e } d8) cis16 b
   e4 a, r8 gis'16\glissando a cis b g e
   a4 a~ a16 b cis d \grace { cis_( d } cis) a b cis
+  \grace { b_(cis } b8) a4. dis,,16( fis) a( bis) dis fis a bis
+  cis4 cis r16 fis( e) d b gis e d
+  % start meas. 39
+  \tuplet 6/4 { d( cis) cis b' b( a) } \tuplet 6/4 { a(\glissando g) g( fis) fis e } 
+    \tuplet 6/4 { e( d) d(\glissando cis) cis b } \tuplet 6/4 { b( bes) bes( a) a a' }
+  % end meas. 39
+  a4 a~ a16 b cis d \grace { cis_( d } cis) a b cis
+  \grace {b_( cis } b8) a4. r8 e16 fis \grace { g_( a } g8) fis16 e
+  a4 d, r8 b16 cis \grace { d_( e } d8) cis16 b
+  e4 a, r8 gis'16\glissando a cis b g e
+  a4 a~ a16 b cis d \grace { cis_( d } cis) a b cis
+  \grace { b_(cis } b8) a4. d,,16( fis) a d e a e'16.\fermata d32
 }
