@@ -52,5 +52,22 @@
   d, fis' e, e'
   a, cis a2
   d,4 fis' e a
-  d,, fis \skip2
+  d,, fis' \skip2
+  g4 a, e r
+  a2 a
+  %\section
+  %\d \minor  % meas. 48
+  d,4 b' g a
+  d, bes' ees, a
+  d,4 f' e a,
+  d, f' e a,
+  d, f' e a,
+  d, a' e' a,
+  d, f' e a,
+  d,2 d'4 r
+  g bes a,2
+  a2.. a8
+  d,4 bes' ees, a
+  d,4 bes' ees, a
+  d2\harmonic d
 }

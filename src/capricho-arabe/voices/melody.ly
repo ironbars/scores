@@ -10,7 +10,7 @@
     a'4 a r8 g16 f e f g e
     f4 fis r16 a, c fis a c ees16.\fermata d32
     \grace { c16_( d } c8) <bes g> a <g e> bes16( a) d( cis) e( d) f( e)
-    g( e) d( cis) e( d) bes( a) c( b) g( e) d bes cis a
+    g( e) d( cis) e( d) bes( a) c( bes) g( e) d bes cis a
     % meas. 19
     r8 <f d'> r <f d'> r <g ees'> r <e a cis>
     \alternative {
@@ -54,4 +54,21 @@
   e4 a, r8 gis'16\glissando a cis b g e
   a4 a~ a16 b cis d \grace { cis_( d } cis) a b cis
   \grace { b_(cis } b8) a4. d,,16( fis) a d e a e'16.\fermata d32
+  \grace { d16_( e } d8) <b, e>4 <b e>8 r16 b cis d <cis a'>8. <b g'>16
+  \tuplet 3/2 { <b g'>8 a' g } <a, fis'>4 r <g cis e>
+  \section
+  \key d \minor  % key change starting meas. 48
+  d' r8 <fis, d'> r <g b e> r <g cis>
+  r <f d'> r <f d'> r <g ees'> r <e a cis>
+  a'4 a( a8) g16 a \grace { bes_( c } bes) a bes c
+  a4 a( a8) g16 a \grace { bes_( c } bes) a bes c
+  \acciaccatura c8_( a4) a r8 gis16 a b cis d e
+  f8 f16( e) d4 r16 cis e cis bes g e cis
+  a'4 a r8 g16 f e f g e
+  f4 fis r16 a, c fis a c ees16.\fermata d32
+  \grace { c16_( d } c8) <bes g> a <g e> bes16( a) d( cis) e( d) f( e)
+  g( e) d( cis) e( d) bes( a) c( bes) g( e) d bes cis a
+  r8 <f d'> r <f d'> r <g ees'> r <e a cis>
+  r8 <f d'> r <f d'> r <g ees'> r <e a cis>
+  <a\harmonic d\harmonic>2 <f' a d>
 }

@@ -53,4 +53,20 @@
   f8\rest e e\rest e \skip2
   c'8\rest <a d> c\rest <a d> \skip2
   c8\rest d c\rest <a d> \skip2
+  \skip1
+  \skip1
+  %\section
+  %\d \minor  % meas. 48
+  f8\rest <fis a> \skip2.
+  \skip1
+  c'8\rest <a f'> c\rest <a f'> \skip2
+  c8\rest <a f'> c\rest <a f'> \skip2
+  c8\rest <a f'> c\rest <a f'> \skip2
+  a8\rest <f' a> a,\rest <f' a> \skip2
+  c8\rest <a d> c\rest <a d> \skip2
+  f8\rest <a d> f\rest <a c> \skip2
+  \skip1
+  \skip1
+  \skip1
+  \skip1
 }
