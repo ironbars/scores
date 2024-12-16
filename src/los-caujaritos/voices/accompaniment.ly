@@ -6,7 +6,12 @@
   s2.
   s2.
   %\repeat volta 2 {
+    % meas. 4
     e,2 b'4
+    e,2 b'4
+    e,2 b'4
+    e,2.
+    <b' fis'>2 fis'4
   %}
 }
 
