@@ -12,6 +12,13 @@
     <e g>8 <e g>4 <g b>8 <e g>4
     <fis a>8 <c fis>4 <e g>8 <g, b e>4
     <a dis> \tuplet 3/2 { fis'8 dis a } fis8 fis'
+    % meas. 9
+    r4 fis <e g>
+    <dis a'> \tuplet 3/2 { b'8 a dis, } fis,8 a'~
+    a a4 <b, e g>8 <b e>4
+    dis' \tuplet 3/2 { b8 fis dis } fis,8 b'~
+    b4 a b
+    % meas. 14
   }
 }
 
