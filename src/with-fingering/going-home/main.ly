@@ -50,7 +50,7 @@
       % end meas. 10
     \fbarre "III" { <g,, bes' d a'>8\arpeggio bes'' a bes } <a,, des' f a>4\arpeggio g'' \break
     % end of repeat
-    \fbarre "V" { <d, d' f>8 a' } \fbarre "IV" { <des, des' f> aes' } \fbarre "III" { <c, c' f> bes' }
+    \fbarre "V" { <d, d' f>8 a' } \fbarre "IV" { <des, des' f> aes' } \fbarre "III" { <c, c' f> f }
       \fbarre "VII" { <f a ees' ges>\arpeggio d'' }
     bes,,8 a' d f a bes a bes
     <a,, des' f a>2\arpeggio f''8 g <d, d' f a>\arpeggio <d' f bes> \break
