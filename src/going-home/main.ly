@@ -26,7 +26,7 @@
       \tuplet 3/2 {c'8 f g}
     <g,, bes' d a'>8\arpeggio bes'' a bes <a,, des' f a>4\arpeggio g'' \break
     % end of repeat
-    <d, d' f>8 a' <des, des' f> aes' <c, c' f> bes' 
+    <d, d' f>8 a' <des, des' f> aes' <c, c' f> f
       <f a ees' ges>\arpeggio d''
     bes,,8 a' d f a bes a bes
     <a,, des' f a>2\arpeggio f''8 g <d, d' f a>\arpeggio <d' f bes> \break
