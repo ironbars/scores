@@ -13,11 +13,11 @@
     e,2.
     <b' fis'>2 fis'4
     % meas. 9
-    b, dis'8 a~ <fis~ a~>4
-    <b, fis' a>2 fis'4
+    \voices 2,4 << { b,2 s4 } \\ { s4 dis'8 a~ <fis~ a~>4 } >>
+    \voices 2,4 << { b,2 fis'4 } \\ { <fis a>2 s4 } >>
     b,2 g'4
     b,2 fis'4
-    b, dis'8 a~ <fis a>4
+    \voices 2,4 << { b,2 s4 } \\ { s4 dis'8 a~ <fis a>4 } >>
     % meas. 14
   %}
 }
