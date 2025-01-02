@@ -19,6 +19,19 @@
     dis' \tuplet 3/2 { b8 fis dis } fis,8 b'~
     b4 a b
     % meas. 14
+    c c4. c8
+    r <a, fis' c>4 <dis a' c> e'8
+    b4 \tuplet 3/2 { b8 g e } b b'
+    \alternative {
+      \volta 1 {
+        r8 b,4 e8 fis4
+        <e g>8 <e g>4 \autoBeamOff <e~ g~>8 \autoBeamOn <e g> <e g>
+        r <e g>4 <e fis>8 <b e>4
+      }
+      \volta 2 {
+        r <e e'> <e e'>
+      }
+    }
   }
 }
 

@@ -19,6 +19,19 @@
     b,2 fis'4
     \voices 2,4 << { b,2 s4 } \\ { s4 dis'8 a~ <fis a>4 } >>
     % meas. 14
+    \voices 2,4 << { dis2 s4 } \\ { <a' fis'>4 fis'8 a,~ <b, a'>4 } >>
+    dis4 r fis
+    e,2 b''4
+    %\alternative {
+      %\volta 1 {
+        e,,2.
+        e2 b'4
+        e,2 b'4
+      %}
+      %\volta 2 {
+        e,2.
+      %}
+    %}
   %}
 }
 
