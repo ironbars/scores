@@ -1,4 +1,5 @@
 \relative {
+  %\set Staff.connectArpeggios = ##t
   %\time 3/4
   %\key e \minor
   %\clef "treble_8"
@@ -33,5 +34,12 @@
       %}
     %}
   %}
+  % meas. 21
+  \voices 2,4 << { e2.~ } \\ { s2 e'4~ } >>
+  \voices 2,4 << { e,4 e r } \\ { e' s2 } >>
+  a,2\arpeggio e4
+  a2.
+  a2\arpeggio e4
+  a2.
+  % meas. 27
 }
-

@@ -4,7 +4,10 @@
 }
 \version "2.24.1"
 \score {
-  \new Staff <<
+  \new Staff \with {
+    \consists  "Span_arpeggio_engraver" 
+  }
+  <<
     \new Voice = "melody" {
       \voiceOne
       \include "voices/melody.ly"

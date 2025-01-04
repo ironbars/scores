@@ -1,4 +1,5 @@
 \relative {
+  \set Staff.connectArpeggios = ##t
   \time 3/4
   \key e \minor
   \clef "treble_8"
@@ -33,5 +34,12 @@
       }
     }
   }
+  % meas. 21
+  <e~ e'>8 <e e'~>4 \autoBeamOff <e~ e'>8 \autoBeamOn e~ <e~ e'~>
+  <e e'>8 <e~ e'>4 \autoBeamOff <e e'>8 \autoBeamOn e' e,
+  <e a c>4\arpeggio \tuplet 3/2 { c'8 a e } r8 c'
+  r e,4 a8 c4\glissando
+  <a c e>\arpeggio \tuplet 3/2 { e'8 c a } r e'~
+  e <a, c e>4\arpeggio g'4 fis8
+  % meas. 27
 }
-
