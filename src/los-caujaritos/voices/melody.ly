@@ -42,4 +42,12 @@
   <a c e>\arpeggio \tuplet 3/2 { e'8 c a } r e'~
   e <a, c e>4\arpeggio g'4 fis8
   % meas. 27
+  e4. e,16~ <e~ g~> <e g b>4
+  r4 g a
+  <e b'>\arpeggio b'4. b8
+  r <g, e' b'>4 d''8 c4
+  b \tuplet 3/2 { a8 dis, a } fis a'
+  r8 <a, dis fis>4 <e' g> fis8
+  b4 \tuplet 3/2 { a8 dis, a } fis a'
+  % meas. 34
 }
