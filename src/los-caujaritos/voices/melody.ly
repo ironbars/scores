@@ -50,4 +50,11 @@
   r8 <a, dis fis>4 <e' g> fis8
   b4 \tuplet 3/2 { a8 dis, a } fis a'
   % meas. 34
+  r8 <dis, fis c'>4 <dis fis c'>8 <a dis a'>4
+  <b e g> \tuplet 3/2 { g'8 e b } r g'
+  r4 <e e'> <e e'>
+  <e~ e'>8 <e e'>4 \autoBeamOff e8~ \autoBeamOn e~ <e~ e'~>
+  <e e'> e4~ \autoBeamOff <e e'~>8 \autoBeamOn e' e,
+  <e a c>4\arpeggio <a c>8 e r c'
+  % meas. 40
 }

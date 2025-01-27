@@ -50,4 +50,11 @@
   b,2 fis'4
   b,2 fis'4
   % meas. 34
+  b,2.
+  e,2 e'4
+  e,2.
+  e2 e'4~
+  e e,2
+  a2\arpeggio e4
+  % meas. 40
 }
