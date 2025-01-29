@@ -57,4 +57,11 @@
   e e,2
   a2\arpeggio e4
   % meas. 40
+  a2.
+  a2 fis''4
+  a,,2.
+  e2 b''4
+  \voices 2,4 << { e,,2 s4 } \\ { s4 b''8 g~ <d g>4 } >>
+  <cis g' e'>4\arpeggio e'8 g,~ <d g>4
+  % meas. 46
 }

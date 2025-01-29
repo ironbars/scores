@@ -57,4 +57,11 @@
   <e e'> e4~ \autoBeamOff <e e'~>8 \autoBeamOn e' e,
   <e a c>4\arpeggio <a c>8 e r c'
   % meas. 40
+  r4 <c e a>\arpeggio <c e a>\arpeggio
+  <c e a>\arpeggio \tuplet 3/2 { a'8 e c } fis, a'~
+  a <c,~ e~ a~>\arpeggio \autoBeamOff <c e a> \autoBeamOn g'4 fis8
+  e4. e,16~ <e~ g~> <e g b>4
+  r g a
+  b\arpeggio b4. b8
+  % meas. 46
 }
