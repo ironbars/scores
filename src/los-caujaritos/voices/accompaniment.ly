@@ -64,4 +64,11 @@
   \voices 2,4 << { e,,2 s4 } \\ { s4 b''8 g~ <d g>4 } >>
   <cis g' e'>4\arpeggio e'8 g,~ <d g>4
   % meas. 46
+  <e, cis'>4.\arpeggio r
+  \voices 2,4 << { b'2 fis'4 } \\ { b4\rest dis8 a4 dis8 } >>
+  b,2 fis'4
+  b,2 fis'4
+  b,2.
+  e,2 e'4
+  % meas. 52
 }

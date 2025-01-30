@@ -64,4 +64,11 @@
   r g a
   b\arpeggio b4. b8
   % meas. 46
+  r <g, e' b'>4\arpeggio d''8 c4
+  b a2
+  r8 <a, dis fis>4 <a e' g> fis'8
+  b4 \tuplet 3/2 { a8 dis, a } fis a'
+  r <dis, fis c'>4 <dis fis b>8 <a dis a'>4
+  g'4 \tuplet 3/2 { b8 g e } e, g'
+  % meas. 52
 }
