@@ -71,4 +71,14 @@
   r <dis, fis c'>4 <dis fis b>8 <a dis a'>4
   g'4 \tuplet 3/2 { b8 g e } e, g'
   % meas. 52
+  \repeat volta 2 {
+    r8 b,,4 e8 fis4
+    <e g>8 <e g>4 <e g> g8
+    r g fis4 e4
+    <g b> \tuplet 3/2 { b8 g e } g, b'
+    r b4 e fis8
+    <e g> <e g>4 <g b>8 <e g>4
+    <fis a>8 <b, fis'>4 <e g>8 <g, b e>4
+    % meas. 59
+  }
 }

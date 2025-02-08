@@ -71,4 +71,14 @@
   b,2.
   e,2 e'4
   % meas. 52
+  %\repeat volta 2 {
+    e,2.
+    e2 g4
+    e2 g4
+    e2 g4
+    e2.
+    e2 b'4
+    e,2.
+    % meas. 59
+  %}
 }
