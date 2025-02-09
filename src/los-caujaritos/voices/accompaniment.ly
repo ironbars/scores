@@ -80,5 +80,16 @@
     e2 b'4
     e,2.
     % meas. 59
+    <b' fis'>2 fis'4
+    b,4~ b r
+    \voices 2,4 << { a2 c4 } \\ { a'2. } >>
+    \voices 2,4 << { a,2 fis'4 } \\ { a4. g8 s4 } >>
+    <b, fis' a>2 fis'4
+    \voices 2,4 << { b,2 a'4 } \\ { s4 fis'8 dis~ dis4 } >>
+    \voices 2,4 << { dis,2 b4 } \\ { <a' fis'>4 fis'8 a,~ a4 } >>
+    dis,4 r fis
+    e,2 b''4~
   %}
+  % meas. 68
+  <e,, b''> e' e
 }

@@ -80,5 +80,16 @@
     <e g> <e g>4 <g b>8 <e g>4
     <fis a>8 <b, fis'>4 <e g>8 <g, b e>4
     % meas. 59
+    <a dis> \tuplet 3/2 { b'8 fis dis } fis, fis'
+    r4 <fis, a dis fis> <g b e>
+    r <b e>8 c~ c e
+    r <b e>4 r8 r4
+    dis4. dis16~ <dis~ fis~> <dis fis b>4
+    r dis' b
+    c c4. c8
+    r <a, fis' c'>4 <dis a' c> e'8
+    b4. e,16~ <e~ g~> <e~ g~ b~>4
   }
+  % meas. 68
+  <e g b> <b e> <b e>
 }
