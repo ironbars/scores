@@ -49,7 +49,7 @@ main() {
   local score_home
   local title
   local output
-  local dest_dir="."
+  local dest_dir="engravings"
   local with_fingering=0
   local positional=()
 
@@ -101,6 +101,11 @@ main() {
     title="$(head -1 "${score_home}/.title")"
   else
     title="$(perl -pe 'tr/-/ /; s/([\w'"'"']+)/\u\L$1/g; s/(No)/$1\./' <<< "${score}")"
+  fi
+
+  if [[ ! -d "${dest_dir}" ]]; then
+    out "Creating ${dest_dir}"
+    mkdir -p "${dest_dir}"
   fi
 
   score_src="${score_home}/main.ly"
