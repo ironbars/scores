@@ -92,4 +92,10 @@
   %}
   % meas. 68
   <e,, b''> e' e
+  \voices 2,4 << { <gis, e'> r r8 e } \\ { r8 e'4 \autoBeamOff f8 \autoBeamOn fis g~ } >>
+  \voices 2,4 << { s2. } \\ { g8 gis8 a8\noBeam ais4 b8~ } >>
+  \voices 2,4 << { s2. } \\ { \voiceFour b4 c8 a8~ <e a>4 } >>
+  a,2.
+  a2\arpeggio a4~
+  a <c g' ais>2
 }
