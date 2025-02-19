@@ -98,4 +98,12 @@
   e a,4 c8 e4
   <c fis a>4.\arpeggio <c~ fis~ a~>8 <c fis a>4
   <c fis a> <e g> fis
+  % meas. 75
+  <g, b e>4. e16~ <e~ g~> <e g b>4
+  r4 g' a
+  b\arpeggio b4. b8
+  b[\arpeggio b~]\arpeggio b[ d] c4
+  b a2
+  r8 <a, dis fis>4 <a e' g> fis'8
+  % meas. 81
 }

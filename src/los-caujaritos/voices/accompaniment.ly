@@ -98,4 +98,12 @@
   a,2.
   a2\arpeggio a4~
   a <c g' ais>2
+  % meas. 75
+  e,2 b'4
+  \voices 2,4 << { e,2  r4 } \\ { s4 b''8 g~ <d g>4 } >>
+  <cis g' e'>\arpeggio e'8 g,~ <d g>4
+  \voices 2,4 << { <e, cis'>2.\arpeggio } \\ { g'8\rest <g e'>4\arpeggio b4.\rest } >>
+  \voices 2,4 << { b,2 fis'4 } \\ { b4\rest dis8 a4 dis8 } >>
+  b,2 fis'4
+  % meas. 81
 }
