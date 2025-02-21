@@ -106,4 +106,11 @@
   \voices 2,4 << { b,2 fis'4 } \\ { b4\rest dis8 a4 dis8 } >>
   b,2 fis'4
   % meas. 81
+  b,2 fis'4
+  b,2.
+  <e b'>4. r8 b4
+  e, e' e
+  \voices 2,4 << { <gis, e'> r r8 e } \\ { r8 e'4 \autoBeamOff f8 \autoBeamOn fis g~ } >>
+  \voices 2,4 << { s2. } \\ { g8 gis8 a8\noBeam ais4 b8 } >>
+  \voices 2,4 << { a,2 e4 } \\ { c''4 c8 a~ a4 } >>
 }

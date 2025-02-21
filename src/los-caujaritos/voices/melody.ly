@@ -106,4 +106,11 @@
   b a2
   r8 <a, dis fis>4 <a e' g> fis'8
   % meas. 81
+  a4 \tuplet 3/2 { b8 a dis,~ } dis <a~ dis~ a'~>
+  <a dis a'> <dis fis c'>4 <dis fis b>8 <a dis a'>4
+  <e' g>4. b16~ <b~ e~> <b e g>4
+  r <b e> <b e>
+  <b e>8 <b e>4 \autoBeamOff <b e>8 \autoBeamOn <b e> <b~ e~>
+  <b e> <b e> <b e>\noBeam <b e>4 e8
+  e4 e2
 }
