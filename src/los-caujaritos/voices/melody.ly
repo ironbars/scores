@@ -113,4 +113,12 @@
   <b e>8 <b e>4 \autoBeamOff <b e>8 \autoBeamOn <b e> <b~ e~>
   <b e> <b e> <b e>\noBeam <b e>4 e8
   e4 e2
+  % meas. 88
+  r4 <c' e a>\arpeggio <c e a>\arpeggio
+  <c e a> \tuplet 3/2 { a'8 e c~ } c a'~
+  a <c,~ e~ a~> <c e a>\noBeam g'4 fis8
+  e4. e,16~ <e~ g~> <e g b>4
+  r4 g a
+  b4\arpeggio b4. b8
+  % meas. 94
 }

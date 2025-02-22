@@ -113,4 +113,12 @@
   \voices 2,4 << { <gis, e'> r r8 e } \\ { r8 e'4 \autoBeamOff f8 \autoBeamOn fis g~ } >>
   \voices 2,4 << { s2. } \\ { g8 gis8 a8\noBeam ais4 b8 } >>
   \voices 2,4 << { a,2 e4 } \\ { c''4 c8 a~ a4 } >>
+  % meas. 88
+  \voices 2,4 << { a,2. } \\ { s4 fis''\arpeggio fis~\arpeggio } >>
+  \voices 2,4 << { a,,2. } \\ { fis''2 fis4 } >>
+  a,,2.
+  e2 b''4
+  e,,4 b''8 g~ <d g>4
+  <cis g' e'>4\arpeggio e'8 g,~ <d g>4
+  % meas. 94
 }
