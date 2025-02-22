@@ -121,4 +121,10 @@
   e,,4 b''8 g~ <d g>4
   <cis g' e'>4\arpeggio e'8 g,~ <d g>4
   % meas. 94
+  <e, c'>2.\arpeggio
+  \voices 2,4 << { b'2 fis'4 } \\ { b4\rest dis8 a4 dis8 } >>
+  \voices 2,4 << { b,2 fis'4 } \\ { s4 dis'8 a~ a4 } >>
+  b,2 fis'4
+  b,2.
+  e,4 <g' b>\fermata s4
 }

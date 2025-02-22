@@ -121,4 +121,10 @@
   r4 g a
   b4\arpeggio b4. b8
   % meas. 94
+  b\arpeggio <g, e' b'~>\arpeggio b' d c4
+  b4 a2
+  r4 fis4 <dis g>4
+  a'4  \tuplet 3/2 { b8 a dis,~ } dis <a~ dis~ a'~>
+  <a dis a'> <dis fis c'>4 <dis fis b>8 <a dis a'>4
+  r4 e''4\fermata r4
 }
