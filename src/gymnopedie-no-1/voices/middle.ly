@@ -13,5 +13,15 @@
     e,4\rest cis'2
     e,4\rest <dis' gis>2
     % meas. 9
+    s4 gis,2
+    s2.
+    s
+    s
+    %\break
+    b4\rest <cis e>2
+    b4\rest <b dis>2
+    e,4\rest cis'2
+    e,4\rest <dis' gis>2
+    % meas. 17
   %}
 }
