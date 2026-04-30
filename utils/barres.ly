@@ -1,6 +1,6 @@
-halfBarSign = \markup { \combine \roman C \translate #'(0.8 . -0.4) \draw-line #'(0 . 2.5) }
+halfBarSign = \markup { \combine \serif C \translate #'(0.8 . -0.4) \draw-line #'(0 . 2.5) }
 
-fullBarSign = \markup { \roman C }
+fullBarSign = \markup { \serif C }
 
 shortSpan = 
 \markup {
