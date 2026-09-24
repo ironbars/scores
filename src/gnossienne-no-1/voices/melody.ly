@@ -23,7 +23,7 @@
     \repeat volta 2 {
       r8 b'\harmonic cis dis e\harmonic fis ais fis
       e4 \acciaccatura fis8 e4~ 2
-      \acciaccatura fis8 e2 \acciaccatura e8 d2 \break
+      \acciaccatura fis8 e2 \acciaccatura e8 dis2 \break
       \acciaccatura c8 b2 \acciaccatura b8 ais2
       \acciaccatura g8 fis4 \acciaccatura fis8 e4~ 2~
       e1
